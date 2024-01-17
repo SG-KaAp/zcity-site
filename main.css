@@ -87,7 +87,7 @@ div.center {
     height: 50vh;
     top: 50%;
     left: 50%;
-    position: center;
+    position: absolute;
     margin: -25vh 0 0 -60vw;
     animation: showanim 0.5s;
 }
