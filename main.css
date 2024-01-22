@@ -67,7 +67,7 @@ p.longtext {
 
 
 a {
-    color: rgb(185, 0, 125);
+    color: rgb(0, 74, 185);
     font-size: 20px;
     font-family: Nunito, serif;
 }
@@ -125,10 +125,10 @@ div.projects {
 }
 
 div.podval {
-    background-color: rgb(29, 0, 6);
+    background-color: rgb(4, 0, 29);
     width: 100vw;
     height: 10%;
-    top: 50%;
+    top: 25vw;
     left: 50%;
     position: relative;
     margin: 50px 0 0 -50.6vw;
