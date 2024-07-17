@@ -31,6 +31,18 @@ p {
     text-shadow: 2px 2px #000000;
 }
 
+p.alsotry {
+    color: rgb(255, 255, 0);
+    font-family: Nunito, serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    position: center;
+    margin: 0 0 0 0;
+	rotate: 0deg;
+	animation: alsotry 0.5s infinite;
+}
+
 p.center {
     color: rgb(80, 80, 80);
     font-family: Nunito, serif;
@@ -68,7 +80,6 @@ p.longtext {
 
 a {
     color: rgb(0, 74, 185);
-    font-size: 20px;
     font-family: Nunito, serif;
 }
 
@@ -179,6 +190,20 @@ img {
     100% {
         left: 50%;
         opacity: 100%;
+    }
+}
+
+@keyframes alsotry {
+    0% {
+		font-size: 20px;
+    }
+	
+	50% {
+		font-size: 25px;
+    }
+
+    100% {
+		font-size: 20px;
     }
 }
 
