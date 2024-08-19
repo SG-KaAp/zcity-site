@@ -32,6 +32,15 @@ p {
     text-shadow: 2px 2px #000000;
 }
 
+p.normal {
+    color: gray;
+    font-family: Nunito, serif;
+    font-size: 15px;
+    text-align: left;
+    left: 15.5%;
+    position: relative;
+    text-shadow: 2px 2px #000000;
+}
 p.alsotry {
     color: rgb(255, 255, 0);
     font-family: Nunito, serif;
