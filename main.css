@@ -1,264 +1,111 @@
+.electrolize-regular {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.header-base {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 2.5svw;
+    font-style: bold;
+    color: white;
+}
+
+.header{
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 1.5svw;
+    font-style: bold;
+    color: white;
+}
+
+.footer-base {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 1.5svw;
+    font-style: bold;
+    color: white;  
+    height: 55px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+button.base {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: center;
+    font-size: 1.7svw;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: inline-block;
+    background-color: #36212100;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button.base:hover {
+    filter: drop-shadow(0 0 1rem rgb(253, 0, 0));
+    width: 100%;
+}
+
+button.base:hover .desc {
+    opacity: 1;
+    right: -5%;
+}
+
+.desc {
+    opacity: 0;
+    transition-duration: 0.5s;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    text-align: right;
+    position: relative;
+    font-size: 1svw;
+    right: 15%;
+}
+
 body {
-    background-color: rgb(20, 0, 0);
-	animation: showanim3 2.5s;
+    background-color: #222222;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Play, serif;
-    font-size: 35px;
-    text-shadow: 3px 3px rgb(0, 0, 0);
-    animation: shadowanim 1s;
+.red {
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-style: bold;
+    color: rgb(153, 0, 0);
 }
 
-h2 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Nunito, serif;
-    font-size: 22px;
-    text-shadow: 2px 2px rgb(0, 0, 0);
+a.names {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    transition-duration: 0.3s;
 }
 
-.tab {
-    margin-right: 40px;
+a.names:hover {
+    font-size: 2svw;
+    color: rgb(173, 0, 0);
 }
 
 p {
-    color: white;
-    font-family: Nunito, serif;
-    font-size: 20px;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-}
-
-p.normal {
-    color: gray;
-    font-family: Nunito, serif;
-    font-size: 15px;
+    font-family: "Play", sans-serif;
+    font-weight: 1500;
+    font-size: 1svw;
+    font-style: bold;
     text-align: left;
-    left: 15.5%;
-    position: relative;
-    text-shadow: 2px 2px #000000;
-}
-p.alsotry {
-    color: rgb(255, 255, 0);
-    font-family: Nunito, serif;
-    font-size: 20px;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-    position: center;
-    margin: 0 0 0 0;
-	rotate: 0deg;
-	animation: alsotry 0.5s infinite;
-}
-
-p.center {
-    color: rgb(80, 80, 80);
-    font-family: Nunito, serif;
-    font-size: 20px;
-    text-align: center;
-    text-shadow: 2px 2px #000000;
-    position: center;
-    margin: 0 0 0 0;
-}
-
-p.button {
     color: white;
-    font-family: Nunito, serif;
-    font-size: 20px;
-    text-align: left;
-    text-shadow: 2px 2px #000000;
-    top: 30%;
-    left: 2.5%;
-    position: absolute;
-    margin: 0 0 0 0;
-}
-
-p.longtext {
-    color: white;
-    font-family: Nunito, serif;
-    font-size: 20px;
-    text-align: left;
-    text-shadow: 2px 2px #000000;
-    top: 0;
-    left: 13.5%;
-    position: relative;
-    margin: 0 25% 0 0;
-}
-
-
-a {
-    color: rgb(185, 25, 25);
-    font-family: Nunito, serif;
-}
-
-ul {
-    color: white;
-    font-family: Nunito, serif;
-    font-size: 20px;
-    margin: 0 45% 0 45%;
-    text-align: left;
-    position: relative;
-    text-shadow: 2px 2px #000000;
-}
-
-div.center {
-    position: center;
-    margin: auto;
-	margin-top: 15%;
-	display: table;
-    animation: showanim 0.5s;
-}
-
-
-div.top {
-    width: 90vw;
-    height: 10vh;
-    top: 0%;
-    left: 50%;
-    position: relative;
-    margin: 0 0 0 -45vw;
-    animation: showanim 0.5s;
-}
-
-div.longtext {
-    width: 90vw;
-    height: auto;
-    top: 0;
-    left: 50%;
-    position: relative;
-    margin: 25px 0 0 -45vw;
-    animation: showanim1 1s;
-}
-
-div.projects {
-    background-color: rgb(25, 25, 25);
-    width: 100vw;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    position: relative;
-    margin: 15% 0 0 -50.6vw;
-    animation: showanim1 1.2s;
-}
-
-div.podval {
-    background-color: rgb(50, 5, 5);
-    width: 100vw;
-    height: 10%;
-    top: 25vw;
-    left: 50%;
-    position: relative;
-    margin: 50px 0 0 -50.6vw;
-    animation: showanim1 1.2s;
-}
-
-div.language {
-    width: 200px;
-    height: 8%;
-    top: 0%;
-    left: 50%;
-    position: absolute;
-    margin: 88vh 15% 0;
-    animation: showanim1 1s;
-}
-
-
-div.screenshots {
-    width: 45%;
-    text-align: center;
-    height: auto;
-    top: 0;
-    left: 50%;
-    position: relative;
-    margin: 25px 0 0 -22%;
-    animation: showanim1 1s;
-}
-
-div.description {
-    width: 80vw;
-    height: auto;
-    top: 1 5%;
-    left: 50%;
-    position: relative;
-    margin: 20% 0 0 -40vw;
-    animation: showanim1 1.2s;
 }
 
 img {
-    filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.479));
-    margin-left: auto;
-    margin-right: auto
-}
-
-@keyframes showanim {
-    0% {
-        left: 40%;
-        opacity: 0%;
-    }
-
-    100% {
-        left: 50%;
-        opacity: 100%;
-    }
-}
-
-@keyframes showanim3 {
-    0% {
-        background-color: rgb(0, 0, 0);
-    }
-	
-	25% {
-        background-color: rgb(0, 0, 0);
-    }
-
-    100% {
-        background-color: rgb(20, 0, 0);
-    }
-}
-
-@keyframes alsotry {
-    0% {
-		font-size: 20px;
-    }
-	
-	50% {
-		font-size: 25px;
-    }
-
-    100% {
-		font-size: 20px;
-    }
-}
-
-@keyframes showanim1 {
-    0% {
-        left: 0%;
-        opacity: 0%;
-    }
-
-    35% {
-        left: 40vw;
-        opacity: 0%;
-    }
-
-    100% {
-        left: 50%;
-        opacity: 100%;
-    }
-}
-
-@keyframes shadowanim {
-    0% {
-        text-shadow: 0px 0px rgba(0, 0, 0, 0);
-    }
-
-    65% {
-        text-shadow: 0px 0px rgba(0, 0, 0, 0);
-    }
-
-    100% {
-        text-shadow: 3px 3px rgb(0, 0, 0);
-    }
+    border-radius: 8px;
+    filter: drop-shadow(0 2px 0.75rem rgb(220, 20, 20));
 }
