@@ -8,7 +8,7 @@
 .header-base {
     font-family: "Play", sans-serif;
     font-weight: 1500;
-    font-size: 2.5svw;
+    font-size: 50px;
     font-style: bold;
     color: white;
 }
@@ -16,7 +16,7 @@
 .header{
     font-family: "Play", sans-serif;
     font-weight: 1500;
-    font-size: 1.5svw;
+    font-size: 40px;
     font-style: bold;
     color: white;
 }
@@ -24,7 +24,7 @@
 .footer-base {
     font-family: "Play", sans-serif;
     font-weight: 1500;
-    font-size: 1.5svw;
+    font-size: 30px;
     font-style: bold;
     color: white;  
     height: 55px;
@@ -33,6 +33,32 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+table {
+    font-family: Play, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: center;
+    margin: auto;
+    display: table;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.rules {
+  text-align: left;
+  padding: 10px;
+  transition-duration: 0.3s;
+}
+.rules:hover {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+th:hover {background-color: rgb(65,25,25);}
+
+tr:nth-child(even) {
+  background-color: rgb(10, 10, 10);
 }
 
 button.base {
@@ -92,7 +118,7 @@ a.names {
 }
 
 a.names:hover {
-    font-size: 2svw;
+    font-size: 40px;
     color: rgb(173, 0, 0);
 }
 
